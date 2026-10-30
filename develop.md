@@ -5754,3 +5754,12 @@ This file tracks engineering changes made in this repository.
 ### Known risks / TODO
 
 - 如果后续更换 worker、TPU 拓扑或 venv，再单独补记录。
+
+
+## 2026-10-30: Research README presentation
+
+- Scope: documentation and presentation only; 无代码改动。
+- Files: `README.md`, `README-tunix.md`, `assets/readme-banner.svg`, `develop.md`.
+- Added a paper-focused landing page for the `my-changes` research branch, with PDF links, a compact code navigation table, and vector banner. Preserved the upstream README and attribution in `README-tunix.md`.
+- Validation: checked relative links against the branch file tree and parsed SVG as XML; rendered the documentation for visual review.
+- Risks: training behavior is unchanged; no training jobs were run for this documentation update.
