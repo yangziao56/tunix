@@ -5763,3 +5763,12 @@ This file tracks engineering changes made in this repository.
 - Added a paper-focused landing page for the `my-changes` research branch, with PDF links, a compact code navigation table, and vector banner. Preserved the upstream README and attribution in `README-tunix.md`.
 - Validation: checked relative links against the branch file tree and parsed SVG as XML; rendered the documentation for visual review.
 - Risks: training behavior is unchanged; no training jobs were run for this documentation update.
+
+
+## 2026-10-30: Distinct DTV research identity
+
+- Scope: documentation and vector artwork only; 无代码改动。
+- Files: `README.md`, `assets/readme-banner.svg`, `develop.md`.
+- Replaced the shared banner template with a trajectory-selection visual and a dedicated training-lab aesthetic. Reorganized the README around GRPO and DPO paths while retaining the paper, authors, equal-contribution note, citation, and upstream Tunix attribution.
+- Validation: parsed SVG with Python XML tools; checked README relative links against the branch tree; rendered via GitHub Markdown and visually inspected the first screen.
+- Risks: no runtime changes; training was not run for this documentation-only update.
